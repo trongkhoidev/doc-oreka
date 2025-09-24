@@ -7,12 +7,12 @@ export default function AITrainingGuidePage() {
       {/* Page Header */}
       <div className="mb-12">
         <h1 className="text-4xl font-bold text-gray-900 mb-6">
-          AI Training & Resource Integration Guide
+          AI Training & Resource Integration Guide for Oreka
         </h1>
         <p className="text-lg text-gray-600 leading-relaxed">
-          Learn how to train AI systems to understand and respond to questions based on your documentation 
-          and resources. This guide covers various approaches from simple keyword matching to advanced 
-          machine learning techniques.
+          Learn how to train AI systems to understand and respond to questions about Oreka telephony recording 
+          system, its architecture, and related technologies. This guide covers RAG implementation and 
+          best practices for enterprise AI assistants.
         </p>
       </div>
 
@@ -276,6 +276,7 @@ constructAnswer(query: string, results: SearchResult[]): string {
           <div className="bg-white border border-gray-200 rounded-lg p-6">
             <h3 className="text-lg font-semibold text-gray-900 mb-3">Vector Databases</h3>
             <ul className="list-disc list-inside space-y-2 text-gray-700">
+              <li><strong>Supabase + pgvector:</strong> PostgreSQL-based vector database (recommended for Oreka)</li>
               <li><strong>Pinecone:</strong> Managed vector database with easy API integration</li>
               <li><strong>Weaviate:</strong> Open-source vector database with GraphQL API</li>
               <li><strong>Qdrant:</strong> High-performance vector similarity search engine</li>
@@ -307,10 +308,10 @@ constructAnswer(query: string, results: SearchResult[]): string {
 
       {/* Call to Action */}
       <div className="bg-blue-50 border border-blue-200 rounded-lg p-8 text-center">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">Ready to Implement AI Training?</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">Ready to Implement AI Training for Oreka?</h2>
         <p className="text-gray-700 mb-6">
-          Start with the simple RAG system and gradually improve with advanced techniques. 
-          The key is to have a well-structured knowledge base and intelligent search algorithms.
+          Start with the RAG system using Supabase and OpenAI, then gradually improve with advanced techniques. 
+          The key is to have a well-structured knowledge base of Oreka documentation and intelligent search algorithms.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link

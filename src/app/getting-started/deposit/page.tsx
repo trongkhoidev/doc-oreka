@@ -7,111 +7,140 @@ export default function DepositPage() {
       {/* Page Header */}
       <div className="mb-12">
         <h1 className="text-4xl font-bold text-gray-900 mb-6">
-          How to Deposit
+          Funding Your Oreka System
         </h1>
         <p className="text-lg text-gray-600 leading-relaxed">
-          Learn how to fund your Oreka account using various payment methods including crypto transfers, 
-          Coinbase integration, card payments, and USDC deposits on Aptos.
+          Learn how to fund and maintain your Oreka telephony recording system, including hardware costs, 
+          licensing fees, cloud services, and operational expenses.
         </p>
       </div>
 
-      {/* Deposit Methods */}
+      {/* Funding Methods */}
       <div className="space-y-8">
         <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">Deposit by Transferring Crypto</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Hardware Investment</h2>
           <p className="text-gray-700 mb-4">
-            Transfer cryptocurrencies directly from your external wallet to your Oreka account. 
-            Supported tokens include APT, BTC, ETH, SOL, SUI, BNB, and WETH.
+            Initial hardware setup for your Oreka telephony recording system, including servers, 
+            storage devices, and network equipment.
           </p>
           <div className="bg-gray-50 p-4 rounded-md">
-            <h3 className="font-semibold text-gray-900 mb-2">Steps:</h3>
-            <ol className="list-decimal list-inside space-y-2 text-gray-700">
-              <li>Connect your Aptos wallet to Oreka</li>
-              <li>Navigate to the Deposit section</li>
-              <li>Select the cryptocurrency you want to deposit</li>
-              <li>Copy the deposit address or scan the QR code</li>
-              <li>Send the funds from your external wallet</li>
-              <li>Wait for blockchain confirmation (usually 1-2 minutes)</li>
-            </ol>
+            <h3 className="font-semibold text-gray-900 mb-2">Essential Components:</h3>
+            <ul className="list-disc list-inside space-y-2 text-gray-700">
+              <li>Recording servers (OrkAudio)</li>
+              <li>Database servers (PostgreSQL)</li>
+              <li>Storage arrays (NAS/SAN)</li>
+              <li>Network switches and routers</li>
+              <li>Uninterruptible Power Supplies (UPS)</li>
+              <li>Backup and disaster recovery systems</li>
+            </ul>
           </div>
         </div>
 
         <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">Deposit with Coinbase</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Software Licensing</h2>
           <p className="text-gray-700 mb-4">
-            Use Coinbase&apos;s integration to purchase and deposit cryptocurrencies directly to your Oreka account.
+            Software licenses and subscriptions required for the Oreka system components.
           </p>
           <div className="bg-blue-50 p-4 rounded-md">
-            <h3 className="font-semibold text-blue-900 mb-2">Benefits:</h3>
+            <h3 className="font-semibold text-blue-900 mb-2">Licensing Options:</h3>
             <ul className="list-disc list-inside space-y-1 text-blue-800">
-              <li>Instant purchases with fiat currency</li>
-              <li>Seamless integration with Coinbase</li>
-              <li>Lower fees for Coinbase users</li>
-              <li>Direct transfer to Oreka</li>
+              <li>Open-source core (free)</li>
+              <li>Enterprise features (subscription)</li>
+              <li>Professional support packages</li>
+              <li>Custom development services</li>
             </ul>
           </div>
         </div>
 
         <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">Deposit Using Your Card</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Cloud Services & Infrastructure</h2>
           <p className="text-gray-700 mb-4">
-            Purchase cryptocurrencies using your credit or debit card and deposit them directly to Oreka.
+            Cloud-based services for hosting, storage, and scaling your Oreka system.
           </p>
           <div className="bg-green-50 p-4 rounded-md">
-            <h3 className="font-semibold text-green-900 mb-2">Supported Cards:</h3>
+            <h3 className="font-semibold text-green-900 mb-2">Cloud Options:</h3>
             <ul className="list-disc list-inside space-y-1 text-green-800">
-              <li>Visa and Mastercard</li>
-              <li>American Express</li>
-              <li>Most major debit cards</li>
+              <li>AWS, Azure, or Google Cloud</li>
+              <li>Managed Kubernetes services</li>
+              <li>Object storage (S3, Blob, Cloud Storage)</li>
+              <li>CDN for global access</li>
+              <li>Load balancers and auto-scaling</li>
             </ul>
           </div>
         </div>
 
         <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">Deposit USDC on Aptos</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Operational Costs</h2>
           <p className="text-gray-700 mb-4">
-            USDC is the primary stablecoin on Oreka, providing price stability for traders.
+            Ongoing operational expenses for maintaining and running your Oreka telephony system.
           </p>
           <div className="bg-purple-50 p-4 rounded-md">
-            <h3 className="font-semibold text-purple-900 mb-2">USDC Advantages:</h3>
+            <h3 className="font-semibold text-purple-900 mb-2">Monthly Expenses:</h3>
             <ul className="list-disc list-inside space-y-1 text-purple-800">
-              <li>1:1 USD peg for stable value</li>
-              <li>Widely accepted across DeFi</li>
-              <li>Fast transfers on Aptos</li>
-              <li>Circle-backed stability</li>
+              <li>Electricity and cooling</li>
+              <li>Internet bandwidth and connectivity</li>
+              <li>Backup storage and archival</li>
+              <li>Monitoring and alerting services</li>
+              <li>Security and compliance tools</li>
             </ul>
           </div>
         </div>
 
         <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">Large Cross Chain Deposits</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Professional Services</h2>
           <p className="text-gray-700 mb-4">
-            Transfer large amounts of cryptocurrencies from other blockchains to Aptos for use on Oreka.
+            Professional services for implementation, training, and ongoing support.
           </p>
           <div className="bg-orange-50 p-4 rounded-md">
-            <h3 className="font-semibold text-orange-900 mb-2">Supported Chains:</h3>
+            <h3 className="font-semibold text-orange-900 mb-2">Service Packages:</h3>
             <ul className="list-disc list-inside space-y-1 text-orange-800">
-              <li>Ethereum (ETH, USDC, WETH)</li>
-              <li>Solana (SOL, USDC)</li>
-              <li>Binance Smart Chain (BNB, USDC)</li>
-              <li>Polygon (MATIC, USDC)</li>
+              <li>System design and architecture</li>
+              <li>Installation and configuration</li>
+              <li>Staff training and certification</li>
+              <li>24/7 technical support</li>
+              <li>Regular maintenance and updates</li>
             </ul>
           </div>
         </div>
-      </div>
 
-      {/* Next Steps */}
-      <div className="mt-12 bg-blue-50 border border-blue-200 rounded-lg p-8 text-center">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">Ready to Start Trading?</h2>
-        <p className="text-gray-700 mb-6">
-          Now that you know how to deposit funds, learn how to make your first trade on Oreka.
-        </p>
-        <Link
-          href="/getting-started/first-trade"
-          className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-colors duration-200"
-        >
-          Making Your First Trade →
-        </Link>
+        <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Return on Investment</h2>
+          <p className="text-gray-700 mb-4">
+            Understanding the financial benefits and cost savings from implementing Oreka.
+          </p>
+          <div className="bg-indigo-50 p-4 rounded-md">
+            <h3 className="font-semibold text-indigo-900 mb-2">ROI Benefits:</h3>
+            <ul className="list-disc list-inside space-y-1 text-indigo-800">
+              <li>Reduced manual recording costs</li>
+              <li>Improved compliance and risk management</li>
+              <li>Enhanced customer service quality</li>
+              <li>Operational efficiency gains</li>
+              <li>Scalable growth without proportional cost increase</li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Call to Action */}
+        <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg p-8 text-white text-center">
+          <h2 className="text-2xl font-bold mb-4">Ready to Get Started?</h2>
+          <p className="text-lg mb-6">
+            Contact our team to discuss your specific requirements and get a customized quote.
+          </p>
+          <div className="space-x-4">
+            <Link 
+              href="/getting-started"
+              className="inline-block bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
+            >
+              View Installation Guide
+            </Link>
+            <Link 
+              href="/developer-guide"
+              className="inline-block bg-transparent border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors"
+            >
+              Developer Resources
+            </Link>
+          </div>
+        </div>
       </div>
     </div>
   );

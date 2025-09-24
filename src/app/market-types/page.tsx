@@ -5,278 +5,146 @@ export default function MarketTypesPage() {
     <div className="space-y-8">
       {/* Header */}
       <div className="border-b border-gray-200 pb-6">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">Market Types</h1>
+        <h1 className="text-4xl font-bold text-gray-900 mb-4">Recording Types & Features</h1>
         <p className="text-xl text-gray-600">
-          Explore the different types of prediction markets available on Oreka
+          Explore the different types of call recordings and features available in Oreka
         </p>
       </div>
 
       {/* Overview */}
       <section className="doc-section">
-        <h2>Market Overview</h2>
+        <h2>Recording Overview</h2>
         <p>
-          Oreka supports multiple types of prediction markets, each designed to capture different 
-          real-world events and provide users with diverse betting opportunities. Our poly-option 
-          system goes beyond traditional binary yes/no markets, offering sophisticated outcome 
-          structures and comparison types.
+          Oreka supports multiple types of call recordings and telephony scenarios, each designed 
+          to capture different communication patterns and provide comprehensive recording coverage. 
+          Our system goes beyond simple audio capture, offering sophisticated metadata tracking, 
+          quality analysis, and intelligent search capabilities.
         </p>
         
-        <Callout type="info" title="Poly-Option System">
-          Unlike traditional binary options, Oreka&apos;s poly-option system allows for multiple 
-          outcomes and complex comparison types, enabling more nuanced predictions and better 
-          risk management.
+        <Callout type="info" title="Comprehensive Coverage">
+          Unlike basic recording systems, Oreka provides enterprise-grade features including 
+          multi-protocol support, advanced codec handling, and intelligent content management.
         </Callout>
       </section>
 
-      {/* Crypto Markets */}
+      {/* Call Types */}
       <section className="doc-section">
-        <h2>Crypto Markets</h2>
+        <h2>Call Types</h2>
         <p>
-          Crypto markets are the core offering of Oreka, allowing users to bet on cryptocurrency 
-          price movements using real-time oracle data from Pyth Network.
+          Oreka can record various types of telephony communications, from traditional phone calls 
+          to modern VoIP and web-based communications.
         </p>
 
         <div className="bg-white p-6 rounded-lg border border-gray-200 mt-6">
-          <h3 className="text-lg font-semibold mb-4">Supported Assets</h3>
+          <h3 className="text-lg font-semibold mb-4">Supported Call Types</h3>
           <div className="grid md:grid-cols-2 gap-6">
             <div>
-              <h4 className="font-medium text-gray-900 mb-2">Major Cryptocurrencies</h4>
+              <h4 className="font-medium text-gray-900 mb-2">Traditional Telephony</h4>
               <ul className="text-gray-600 space-y-1 text-sm">
-                <li>• Bitcoin (BTC/USD)</li>
-                <li>• Ethereum (ETH/USD)</li>
-                <li>• Solana (SOL/USD)</li>
-                <li>• Aptos (APT/USD)</li>
-                <li>• BNB (BNB/USD)</li>
-                <li>• Wrapped ETH (WETH/USD)</li>
+                <li>• Landline phone calls</li>
+                <li>• Mobile phone calls</li>
+                <li>• Conference calls</li>
+                <li>• Emergency calls</li>
+                <li>• International calls</li>
+                <li>• Toll-free numbers</li>
               </ul>
             </div>
             <div>
-              <h4 className="font-medium text-gray-900 mb-2">Market Features</h4>
+              <h4 className="font-medium text-gray-900 mb-2">Modern Communications</h4>
               <ul className="text-gray-600 space-y-1 text-sm">
-                <li>• Real-time price feeds</li>
-                <li>• 24/7 trading availability</li>
-                <li>• High liquidity markets</li>
-                <li>• Fast settlement times</li>
+                <li>• VoIP calls (SIP/RTP)</li>
+                <li>• WebRTC communications</li>
+                <li>• Video calls</li>
+                <li>• Screen sharing sessions</li>
+                <li>• Web conferencing</li>
+                <li>• Unified communications</li>
               </ul>
             </div>
           </div>
         </div>
 
-        <h3 className="text-lg font-semibold mb-3 mt-6">Outcome Types</h3>
+        <h3 className="text-lg font-semibold mb-3 mt-6">Recording Scenarios</h3>
         <Table 
-          headers={['Comparison Type', 'Description', 'Example']}
+          headers={['Scenario', 'Description', 'Use Case']}
           rows={[
-            ['Greater Than (GT)', 'Price > threshold', 'BTC > $50,000'],
-            ['Greater Than or Equal (GTE)', 'Price >= threshold', 'ETH >= $3,000'],
-            ['Less Than (LT)', 'Price < threshold', 'SOL < $100'],
-            ['Less Than or Equal (LTE)', 'Price <= threshold', 'APT <= $10'],
-            ['Inclusive Range', 'Min <= Price <= Max', '$45,000 <= BTC <= $55,000'],
-            ['Open Range', 'Min < Price < Max', '$45,000 < BTC < $55,000'],
+            ['Inbound Calls', 'Calls received by the organization', 'Customer service, sales inquiries'],
+            ['Outbound Calls', 'Calls made by organization staff', 'Sales calls, follow-ups, surveys'],
+            ['Internal Calls', 'Calls between organization members', 'Team collaboration, training'],
+            ['Conference Calls', 'Multi-party communication sessions', 'Team meetings, client presentations'],
+            ['Emergency Calls', 'Critical communication recordings', 'Security, compliance, legal'],
+            ['Quality Monitoring', 'Calls recorded for training purposes', 'Agent evaluation, process improvement'],
           ]}
         />
 
-        <Callout type="tip" title="Price Precision">
-          All crypto prices use 9-decimal precision for accurate calculations. Threshold values 
-          are specified in the smallest unit (e.g., satoshis for BTC).
+        <Callout type="tip" title="Flexible Recording">
+          Oreka can be configured to record all calls, selective calls based on rules, 
+          or specific call types depending on your organization&apos;s needs.
         </Callout>
       </section>
 
-      {/* Sports Markets */}
+      {/* Audio Codecs */}
       <section className="doc-section">
-        <h2>Sports Markets</h2>
+        <h2>Audio Codecs & Quality</h2>
         <p>
-          Sports markets allow users to bet on real-world sporting events, from major league 
-          games to international tournaments. These markets are resolved using official sports 
-          data APIs.
+          Oreka supports a wide range of audio codecs and quality settings to ensure optimal 
+          recording quality while maintaining storage efficiency.
         </p>
 
         <div className="bg-white p-6 rounded-lg border border-gray-200 mt-6">
-          <h3 className="text-lg font-semibold mb-4">Sports Categories</h3>
+          <h3 className="text-lg font-semibold mb-4">Supported Codecs</h3>
           <div className="grid md:grid-cols-3 gap-6">
             <div>
-              <h4 className="font-medium text-gray-900 mb-2">Team Sports</h4>
+              <h4 className="font-medium text-gray-900 mb-2">Traditional Codecs</h4>
               <ul className="text-gray-600 space-y-1 text-sm">
-                <li>• Football (NFL, Premier League)</li>
-                <li>• Basketball (NBA, EuroLeague)</li>
-                <li>• Baseball (MLB)</li>
-                <li>• Soccer (World Cup, Champions League)</li>
+                <li>• G.711 (PCM, 64 kbps)</li>
+                <li>• G.726 (ADPCM, 32 kbps)</li>
+                <li>• G.729 (Compressed, 8 kbps)</li>
+                <li>• G.722 (Wideband, 64 kbps)</li>
               </ul>
             </div>
             <div>
-              <h4 className="font-medium text-gray-900 mb-2">Individual Sports</h4>
+              <h4 className="font-medium text-gray-900 mb-2">Modern Codecs</h4>
               <ul className="text-gray-600 space-y-1 text-sm">
-                <li>• Tennis (Grand Slams)</li>
-                <li>• Golf (Masters, PGA Championship)</li>
-                <li>• Boxing & MMA</li>
-                <li>• Athletics (Olympics)</li>
+                <li>• Opus (Variable bitrate)</li>
+                <li>• AMR (Adaptive, mobile optimized)</li>
+                <li>• AAC (Advanced audio coding)</li>
+                <li>• MP3 (Compressed format)</li>
               </ul>
             </div>
             <div>
-              <h4 className="font-medium text-gray-900 mb-2">Market Types</h4>
+              <h4 className="font-medium text-gray-900 mb-2">Quality Features</h4>
               <ul className="text-gray-600 space-y-1 text-sm">
-                <li>• Match winners</li>
-                <li>• Score predictions</li>
-                <li>• Player performance</li>
-                <li>• Tournament outcomes</li>
+                <li>• Automatic codec detection</li>
+                <li>• Real-time transcoding</li>
+                <li>• Quality optimization</li>
+                <li>• Noise reduction</li>
               </ul>
             </div>
           </div>
         </div>
 
-        <h3 className="text-lg font-semibold mb-3 mt-6">Data Sources</h3>
+        <h3 className="text-lg font-semibold mb-3 mt-6">Quality Settings</h3>
         <p>
-          Sports markets are resolved using official data from TheSportsDB API, ensuring 
-          accurate and reliable outcomes. Data includes:
+          Oreka provides configurable quality settings to balance audio quality with storage requirements:
         </p>
         <ul className="text-gray-600 space-y-2 mt-3">
-          <li>• Official game results and scores</li>
-          <li>• Player statistics and performance metrics</li>
-          <li>• Tournament brackets and standings</li>
-          <li>• Real-time game updates</li>
+          <li>• <strong>Sample Rate</strong>: 8kHz, 16kHz, 44.1kHz, 48kHz</li>
+          <li>• <strong>Bit Depth</strong>: 16-bit, 24-bit for professional quality</li>
+          <li>• <strong>Channels</strong>: Mono, Stereo, Multi-channel support</li>
+          <li>• <strong>Compression</strong>: Configurable compression ratios</li>
         </ul>
       </section>
 
-      {/* News Markets */}
+      {/* Recording Modes */}
       <section className="doc-section">
-        <h2>News Markets</h2>
+        <h2>Recording Modes</h2>
         <p>
-          News markets allow users to bet on the outcome of real-world events, political 
-          decisions, and other newsworthy occurrences. These markets aggregate collective 
-          intelligence to predict future events.
+          Oreka offers multiple recording modes to accommodate different organizational needs 
+          and compliance requirements.
         </p>
 
         <div className="bg-white p-6 rounded-lg border border-gray-200 mt-6">
-          <h3 className="text-lg font-semibold mb-4">News Categories</h3>
-          <div className="grid md:grid-cols-2 gap-6">
-            <div>
-              <h4 className="font-medium text-gray-900 mb-2">Political Events</h4>
-              <ul className="text-gray-600 space-y-1 text-sm">
-                <li>• Election outcomes</li>
-                <li>• Policy decisions</li>
-                <li>• Legislative votes</li>
-                <li>• International agreements</li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-medium text-gray-900 mb-2">Economic Events</h4>
-              <ul className="text-gray-600 space-y-1 text-sm">
-                <li>• Central bank decisions</li>
-                <li>• Economic indicators</li>
-                <li>• Corporate earnings</li>
-                <li>• Market regulations</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <h3 className="text-lg font-semibold mb-3 mt-6">Binary Outcomes</h3>
-        <p>
-          News markets typically use binary outcomes (Yes/No) for simplicity and clarity. 
-          Examples include:
-        </p>
-        <ul className="text-gray-600 space-y-2 mt-3">
-          <li>• &quot;Will the Federal Reserve raise interest rates in Q3 2024?&quot;</li>
-          <li>• &quot;Will Company X announce a merger by year-end?&quot;</li>
-          <li>• &quot;Will Country Y sign the trade agreement?&quot;</li>
-        </ul>
-
-        <Callout type="warning" title="Event Verification">
-          News markets require clear, verifiable outcomes. Events must be objective and 
-          resolvable using reliable sources like Guardian API or official announcements.
-        </Callout>
-      </section>
-
-      {/* Market Creation Examples */}
-      <section className="doc-section">
-        <h2>Market Creation Examples</h2>
-        <p>
-          Here are examples of how to create different types of markets on Oreka:
-        </p>
-
-        <CodeBlock
-          title="Crypto Market Creation"
-          language="typescript"
-          code={`// Create a BTC price prediction market
-const createBTCMarket = async () => {
-  const outcomes = [
-    {
-      index: 0,
-      comparison_type: 1, // GT (Greater Than)
-      threshold1: 50000000000, // $50,000 in satoshis
-      threshold2: 0,
-      description: "BTC > $50,000",
-      is_active: true
-    },
-    {
-      index: 1,
-      comparison_type: 3, // LT (Less Than)
-      threshold1: 50000000000, // $50,000 in satoshis
-      threshold2: 0,
-      description: "BTC < $50,000",
-      is_active: true
-    }
-  ];
-
-  const payload = {
-    function: \`\${OREKA_ADDRESS}::crypto_market::create_market\`,
-    type_arguments: [],
-    arguments: [
-      "BTC", // asset symbol
-      outcomes,
-      Math.floor(Date.now() / 1000), // open time
-      Math.floor(Date.now() / 1000) + 86400 // lock time (24 hours)
-    ]
-  };
-  
-  return await signAndSubmitTransaction(payload);
-};`}
-        />
-
-        <CodeBlock
-          title="Sports Market Creation"
-          language="typescript"
-          code={`// Create a sports market for NBA game
-const createSportsMarket = async () => {
-  const outcomes = [
-    {
-      index: 0,
-      description: "Team A wins",
-      is_active: true
-    },
-    {
-      index: 1,
-      description: "Team B wins",
-      is_active: true
-    }
-  ];
-
-  // Sports markets use different contract
-  const payload = {
-    function: \`\${OREKA_ADDRESS}::sports_market::create_market\`,
-    type_arguments: [],
-    arguments: [
-      "NBA_Game_123", // event ID
-      outcomes,
-      "2024-12-31T23:59:59Z", // game time
-      "TheSportsDB" // data source
-    ]
-  };
-  
-  return await signAndSubmitTransaction(payload);
-};`}
-        />
-      </section>
-
-      {/* Market Resolution */}
-      <section className="doc-section">
-        <h2>Market Resolution</h2>
-        <p>
-          All markets on Oreka are automatically resolved using trusted oracle data sources. 
-          The resolution process ensures fairness and accuracy.
-        </p>
-
-        <div className="bg-white p-6 rounded-lg border border-gray-200 mt-6">
-          <h3 className="text-lg font-semibold mb-4">Resolution Process</h3>
+          <h3 className="text-lg font-semibold mb-4">Recording Modes</h3>
           
           <div className="space-y-4">
             <div className="flex items-start">
@@ -284,9 +152,9 @@ const createSportsMarket = async () => {
                 1
               </div>
               <div>
-                <h4 className="font-medium text-gray-900">Market Lock</h4>
+                <h4 className="font-medium text-gray-900">Always Record</h4>
                 <p className="text-gray-600 text-sm">
-                  At the specified lock time, the market closes and no more bets can be placed.
+                  Records all calls automatically without user intervention.
                 </p>
               </div>
             </div>
@@ -296,9 +164,9 @@ const createSportsMarket = async () => {
                 2
               </div>
               <div>
-                <h4 className="font-medium text-gray-900">Oracle Query</h4>
+                <h4 className="font-medium text-gray-900">Selective Recording</h4>
                 <p className="text-gray-600 text-sm">
-                  Smart contracts automatically query the appropriate oracle for outcome data.
+                  Records calls based on configurable rules and criteria.
                 </p>
               </div>
             </div>
@@ -308,9 +176,9 @@ const createSportsMarket = async () => {
                 3
               </div>
               <div>
-                <h4 className="font-medium text-gray-900">Outcome Determination</h4>
+                <h4 className="font-medium text-gray-900">Manual Recording</h4>
                 <p className="text-gray-600 text-sm">
-                  The winning outcome is determined based on oracle data and market rules.
+                  Users can start/stop recording during active calls.
                 </p>
               </div>
             </div>
@@ -320,9 +188,9 @@ const createSportsMarket = async () => {
                 4
               </div>
               <div>
-                <h4 className="font-medium text-gray-900">Reward Distribution</h4>
+                <h4 className="font-medium text-gray-900">Quality Monitoring</h4>
                 <p className="text-gray-600 text-sm">
-                  Winners can claim their rewards, and fees are distributed to owners and treasury.
+                  Records specific calls for training and quality assurance.
                 </p>
               </div>
             </div>
@@ -330,38 +198,221 @@ const createSportsMarket = async () => {
         </div>
       </section>
 
-      {/* Best Practices */}
+      {/* Metadata & Tagging */}
       <section className="doc-section">
-        <h2>Best Practices</h2>
+        <h2>Metadata & Tagging</h2>
         <p>
-          Follow these guidelines to create successful and fair prediction markets:
+          Oreka automatically captures comprehensive metadata for each recording, enabling 
+          powerful search and organization capabilities.
+        </p>
+
+        <div className="bg-white p-6 rounded-lg border border-gray-200 mt-6">
+          <h3 className="text-lg font-semibold mb-4">Automatic Metadata</h3>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div>
+              <h4 className="font-medium text-gray-900 mb-2">Call Information</h4>
+              <ul className="text-gray-600 space-y-1 text-sm">
+                <li>• Caller and callee numbers</li>
+                <li>• Call duration and timestamps</li>
+                <li>• Call direction (inbound/outbound)</li>
+                <li>• Call result and disposition</li>
+                <li>• Queue and agent information</li>
+                <li>• Call quality metrics</li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-medium text-gray-900 mb-2">System Information</h4>
+              <ul className="text-gray-600 space-y-1 text-sm">
+                <li>• Recording server and location</li>
+                <li>• Audio format and codec details</li>
+                <li>• File size and storage location</li>
+                <li>• Recording method and mode</li>
+                <li>• System performance metrics</li>
+                <li>• Error logs and warnings</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <h3 className="text-lg font-semibold mb-3 mt-6">Custom Tagging</h3>
+        <p>
+          Users can add custom tags and notes to recordings for better organization:
+        </p>
+        <ul className="text-gray-600 space-y-2 mt-3">
+          <li>• <strong>Business Tags</strong>: Customer type, product, issue category</li>
+          <li>• <strong>Quality Tags</strong>: Excellent, good, needs improvement</li>
+          <li>• <strong>Compliance Tags</strong>: Legal, regulatory, audit requirements</li>
+          <li>• <strong>Training Tags</strong>: Example call, training material, best practice</li>
+        </ul>
+      </section>
+
+      {/* Search & Retrieval */}
+      <section className="doc-section">
+        <h2>Search & Retrieval Features</h2>
+        <p>
+          Oreka provides powerful search capabilities to quickly find specific recordings 
+          based on various criteria and content analysis.
         </p>
 
         <div className="grid md:grid-cols-2 gap-6 mt-6">
           <div className="bg-white p-6 rounded-lg border border-gray-200">
-            <h3 className="text-lg font-semibold mb-3">Market Creation</h3>
+            <h3 className="text-lg font-semibold mb-3">Search Methods</h3>
             <ul className="text-gray-600 space-y-2 text-sm">
-              <li>• Use clear, unambiguous descriptions</li>
-              <li>• Set reasonable timeframes for resolution</li>
-              <li>• Choose reliable oracle data sources</li>
-              <li>• Consider market liquidity and interest</li>
+              <li>• <strong>Metadata Search</strong>: Phone numbers, dates, duration</li>
+              <li>• <strong>Full-Text Search</strong>: Transcript content analysis</li>
+              <li>• <strong>Semantic Search</strong>: AI-powered content understanding</li>
+              <li>• <strong>Filter Search</strong>: Multiple criteria combination</li>
+              <li>• <strong>Saved Searches</strong>: Reusable search queries</li>
             </ul>
           </div>
           
           <div className="bg-white p-6 rounded-lg border border-gray-200">
-            <h3 className="text-lg font-semibold mb-3">Risk Management</h3>
+            <h3 className="text-lg font-semibold mb-3">Advanced Features</h3>
             <ul className="text-gray-600 space-y-2 text-sm">
-              <li>• Diversify across different market types</li>
-              <li>• Don&apos;t bet more than you can afford to lose</li>
-              <li>• Research events before placing bets</li>
-              <li>• Monitor market conditions and odds</li>
+              <li>• <strong>Similarity Search</strong>: Find related recordings</li>
+              <li>• <strong>Pattern Recognition</strong>: Identify call patterns</li>
+              <li>• <strong>Trend Analysis</strong>: Call volume and quality trends</li>
+              <li>• <strong>Export Options</strong>: Multiple format support</li>
+              <li>• <strong>Bulk Operations</strong>: Process multiple recordings</li>
             </ul>
           </div>
         </div>
 
-        <Callout type="success" title="Community Guidelines">
-          Oreka markets thrive on community participation. Create markets that interest 
-          other users and contribute to the collective intelligence of the platform.
+        <Callout type="success" title="AI-Powered Search">
+          Oreka&apos;s AI assistant can help you find recordings using natural language 
+          queries and understand the context of your search requirements.
+        </Callout>
+      </section>
+
+      {/* Compliance & Security */}
+      <section className="doc-section">
+        <h2>Compliance & Security</h2>
+        <p>
+          Oreka includes built-in features to meet regulatory requirements and ensure 
+          data security and privacy.
+        </p>
+
+        <div className="bg-white p-6 rounded-lg border border-gray-200 mt-6">
+          <h3 className="text-lg font-semibold mb-4">Compliance Features</h3>
+          
+          <Table 
+            headers={['Feature', 'Purpose', 'Implementation']}
+            rows={[
+              ['Tamper Protection', 'Prevent unauthorized modifications', 'Immutable storage, audit logs'],
+              ['Access Control', 'Role-based permissions', 'User roles, access levels'],
+              ['Audit Logging', 'Track all system activities', 'Complete activity history'],
+              ['Data Retention', 'Automated retention policies', 'Configurable retention periods'],
+              ['Encryption', 'Secure data storage', 'AES-256 encryption at rest'],
+              ['Legal Hold', 'Preserve evidence', 'Immutable preservation system'],
+            ]}
+            compact
+          />
+        </div>
+
+        <h3 className="text-lg font-semibold mb-3 mt-6">Regulatory Support</h3>
+        <p>
+          Oreka supports compliance with various industry regulations:
+        </p>
+        <ul className="text-gray-600 space-y-2 mt-3">
+          <li>• <strong>Financial Services</strong>: SOX, Dodd-Frank, Basel III</li>
+          <li>• <strong>Healthcare</strong>: HIPAA, HITECH, 21 CFR Part 11</li>
+          <li>• <strong>Telecommunications</strong>: CALEA, FCC requirements</li>
+          <li>• <strong>General Business</strong>: GDPR, CCPA, industry standards</li>
+        </ul>
+      </section>
+
+      {/* Integration Examples */}
+      <section className="doc-section">
+        <h2>Integration Examples</h2>
+        <p>
+          Here are examples of how to integrate Oreka with different systems and workflows:
+        </p>
+
+        <CodeBlock
+          title="CRM Integration"
+          language="python"
+          code={`# Automatically attach recordings to CRM records
+def attach_recording_to_contact(contact_id, phone_number, call_date):
+    # Search for recordings matching criteria
+    recordings = oreka_client.recordings.search(
+        query=f"phone:{phone_number}",
+        start_date=call_date,
+        end_date=call_date
+    )
+    
+    if recordings:
+        recording = recordings[0]
+        # Download and attach to CRM
+        download_path = f"/tmp/recording_{recording['id']}.wav"
+        oreka_client.recordings.download(recording['id'], download_path)
+        
+        # Upload to CRM system
+        crm_client.attachments.create({
+            'parent_id': contact_id,
+            'name': f'Call Recording - {recording["caller"]}',
+            'file_path': download_path
+        })`}
+        />
+
+        <CodeBlock
+          title="Quality Monitoring Workflow"
+          language="python"
+          code={`# Automated quality monitoring system
+def monitor_call_quality():
+    # Get recent recordings
+    recent_calls = oreka_client.recordings.search(
+        query="duration:>300",  # Calls longer than 5 minutes
+        start_date="today"
+    )
+    
+    for call in recent_calls:
+        # Analyze call quality
+        if call['quality_score'] < 0.7:
+            # Flag for review
+            flag_recording(call['id'], "Poor audio quality")
+            
+        if call['duration'] < 30:
+            # Flag short calls
+            flag_recording(call['id'], "Call duration too short")
+            
+        # Check for specific keywords
+        if "complaint" in call.get('transcript', '').lower():
+            flag_recording(call['id'], "Customer complaint detected")`}
+        />
+      </section>
+
+      {/* Best Practices */}
+      <section className="doc-section">
+        <h2>Best Practices</h2>
+        <p>
+          Follow these guidelines to maximize the value of your Oreka recording system:
+        </p>
+
+        <div className="grid md:grid-cols-2 gap-6 mt-6">
+          <div className="bg-white p-6 rounded-lg border border-gray-200">
+            <h3 className="text-lg font-semibold mb-3">Recording Configuration</h3>
+            <ul className="text-gray-600 space-y-2 text-sm">
+              <li>• Use appropriate quality settings for your needs</li>
+              <li>• Implement proper retention policies</li>
+              <li>• Configure backup and redundancy</li>
+              <li>• Monitor storage usage and performance</li>
+            </ul>
+          </div>
+          
+          <div className="bg-white p-6 rounded-lg border border-gray-200">
+            <h3 className="text-lg font-semibold mb-3">Data Management</h3>
+            <ul className="text-gray-600 space-y-2 text-sm">
+              <li>• Implement consistent tagging strategies</li>
+              <li>• Regular data cleanup and archiving</li>
+              <li>• Monitor recording quality and issues</li>
+              <li>• Train users on search and retrieval</li>
+            </ul>
+          </div>
+        </div>
+
+        <Callout type="success" title="Continuous Improvement">
+          Regularly review your recording policies and usage patterns to optimize 
+          the system for your organization&apos;s specific needs.
         </Callout>
       </section>
 
@@ -369,27 +420,27 @@ const createSportsMarket = async () => {
       <section className="doc-section">
         <h2>Next Steps</h2>
         <p>
-          Now that you understand the different market types, explore these related topics:
+          Now that you understand the recording types and features, explore these related topics:
         </p>
         
         <div className="grid md:grid-cols-2 gap-6 mt-6">
           <div className="bg-white p-6 rounded-lg border border-gray-200">
-            <h3 className="text-lg font-semibold mb-2">How It Works</h3>
+            <h3 className="text-lg font-semibold mb-2">Getting Started</h3>
             <p className="text-gray-600 mb-4">
-              Learn about the complete market lifecycle from creation to resolution
+              Install and configure Oreka in your environment
             </p>
-            <a href="/how-it-works" className="text-blue-600 hover:text-blue-800 font-medium">
-              Learn More →
+            <a href="/getting-started" className="text-blue-600 hover:text-blue-800 font-medium">
+              Get Started →
             </a>
           </div>
           
           <div className="bg-white p-6 rounded-lg border border-gray-200">
-            <h3 className="text-lg font-semibold mb-2">Getting Started</h3>
+            <h3 className="text-lg font-semibold mb-2">Developer Guide</h3>
             <p className="text-gray-600 mb-4">
-              Create your first market and start trading on Oreka
+              Learn how to integrate Oreka with your systems
             </p>
-            <a href="/getting-started" className="text-blue-600 hover:text-blue-800 font-medium">
-              Get Started →
+            <a href="/developer-guide" className="text-blue-600 hover:text-blue-800 font-medium">
+              View Developer Guide →
             </a>
           </div>
         </div>

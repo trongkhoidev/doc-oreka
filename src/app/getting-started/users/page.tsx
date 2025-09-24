@@ -7,7 +7,7 @@ export default function GettingStartedUsersPage() {
       <div className="border-b border-gray-200 pb-6">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">Getting Started for Users</h1>
         <p className="text-xl text-gray-600">
-          Complete guide to start trading on Oreka prediction markets
+          Complete guide to start using Oreka telephony recording system
         </p>
       </div>
 
@@ -15,14 +15,15 @@ export default function GettingStartedUsersPage() {
       <section className="doc-section">
         <h2>Welcome to Oreka</h2>
         <p>
-          Oreka is a decentralized prediction market platform where you can bet on real-world 
-          events using cryptocurrency. Whether you&apos;re predicting crypto prices, sports outcomes, 
-          or news events, Oreka provides a transparent and fair way to test your knowledge.
+          Oreka is an enterprise-grade telephony recording system that helps organizations 
+          capture, manage, and analyze call recordings for compliance, quality assurance, 
+          and business intelligence. Whether you&apos;re an agent, supervisor, or administrator, 
+          Oreka provides powerful tools to work with your call recordings.
         </p>
         
         <Callout type="info" title="What You&apos;ll Learn">
-          This guide will walk you through setting up your wallet, exploring markets, 
-          placing bets, and claiming rewards on Oreka.
+          This guide will walk you through accessing the system, searching recordings, 
+          managing your account, and using advanced features like AI-powered search.
         </Callout>
       </section>
 
@@ -30,28 +31,29 @@ export default function GettingStartedUsersPage() {
       <section className="doc-section">
         <h2>Prerequisites</h2>
         <p>
-          Before you can start trading on Oreka, you&apos;ll need a few things set up:
+          Before you can start using Oreka, you&apos;ll need a few things set up:
         </p>
 
         <div className="grid md:grid-cols-2 gap-6 mt-6">
           <div className="bg-white p-6 rounded-lg border border-gray-200">
-            <h3 className="text-lg font-semibold mb-3">Aptos Wallet</h3>
+            <h3 className="text-lg font-semibold mb-3">System Access</h3>
             <ul className="text-gray-600 space-y-2 text-sm">
-              <li>• Petra (Official Aptos wallet)</li>
-              <li>• Martian Wallet</li>
-              <li>• Pontem Wallet</li>
-              <li>• Blocto Wallet</li>
-              <li>• Any AIP-62 compatible wallet</li>
+              <li>• User account created by administrator</li>
+              <li>• Valid username and password</li>
+              <li>• Appropriate role permissions</li>
+              <li>• Network access to Oreka system</li>
+              <li>• Supported web browser</li>
             </ul>
           </div>
           
           <div className="bg-white p-6 rounded-lg border border-gray-200">
-            <h3 className="text-lg font-semibold mb-3">Cryptocurrency</h3>
+            <h3 className="text-lg font-semibold mb-3">Browser Requirements</h3>
             <ul className="text-gray-600 space-y-2 text-sm">
-              <li>• APT tokens for gas fees</li>
-              <li>• USDC for betting (recommended)</li>
-              <li>• Or APT for betting</li>
-              <li>• Minimum 10 APT for gas</li>
+              <li>• Chrome 90+ (recommended)</li>
+              <li>• Firefox 88+</li>
+              <li>• Safari 14+</li>
+              <li>• Edge 90+</li>
+              <li>• JavaScript enabled</li>
             </ul>
           </div>
         </div>
@@ -64,354 +66,378 @@ export default function GettingStartedUsersPage() {
           Follow these steps to get started with Oreka:
         </p>
 
-        <Step number={1} title="Install and Set Up Your Wallet">
+        <Step number={1} title="Access the System">
           <p>
-            Choose and install an Aptos wallet. We recommend Petra as it&apos;s the official 
-            Aptos wallet with the best user experience.
+            Open your web browser and navigate to your organization&apos;s Oreka system URL. 
+            You&apos;ll be presented with the login page.
           </p>
           <div className="bg-gray-50 p-4 rounded-lg mt-3">
-            <h4 className="font-medium text-gray-900 mb-2">Petra Wallet Setup:</h4>
+            <h4 className="font-medium text-gray-900 mb-2">Login Process:</h4>
             <ol className="text-gray-600 text-sm space-y-1 list-decimal list-inside">
-              <li>Visit <a href="https://petra.app" className="text-blue-600 hover:underline">petra.app</a></li>
-              <li>Download the browser extension</li>
-              <li>Create a new wallet or import existing</li>
-              <li>Write down your seed phrase securely</li>
-              <li>Set a strong password</li>
+              <li>Navigate to your Oreka system URL</li>
+              <li>Enter your username and password</li>
+              <li>Click &quot;Sign In&quot; button</li>
+              <li>Complete any additional authentication if required</li>
+              <li>Access the main dashboard</li>
             </ol>
           </div>
         </Step>
 
-        <Step number={2} title="Get Testnet Tokens (Optional)">
+        <Step number={2} title="Explore the Dashboard">
           <p>
-            If you want to test the platform first, you can get free testnet tokens 
-            to practice without real money.
+            Once logged in, you&apos;ll see the main dashboard with quick access to key features 
+            and recent recordings.
           </p>
           <div className="bg-gray-50 p-4 rounded-lg mt-3">
-            <h4 className="font-medium text-gray-900 mb-2">Testnet Faucet:</h4>
-            <ol className="text-gray-600 text-sm space-y-1 list-decimal list-inside">
-              <li>Switch your wallet to Aptos Devnet</li>
-              <li>Visit the <a href="https://aptoslabs.com/testnet-faucet" className="text-blue-600 hover:underline">Aptos Testnet Faucet</a></li>
-              <li>Connect your wallet</li>
-              <li>Request test APT tokens</li>
-              <li>Wait for confirmation</li>
-            </ol>
-          </div>
-        </Step>
-
-        <Step number={3} title="Add Funds to Your Wallet">
-          <p>
-            Transfer real cryptocurrency to your wallet for live trading. You&apos;ll need 
-            both APT for gas fees and USDC for betting.
-          </p>
-          <div className="bg-gray-50 p-4 rounded-lg mt-3">
-            <h4 className="font-medium text-gray-900 mb-2">Funding Options:</h4>
+            <h4 className="font-medium text-gray-900 mb-2">Dashboard Features:</h4>
             <ul className="text-gray-600 text-sm space-y-1">
-              <li>• <strong>Centralized Exchanges:</strong> Buy APT/USDC and withdraw to your wallet</li>
-              <li>• <strong>DEXs:</strong> Swap other tokens for APT/USDC</li>
-              <li>• <strong>Bridges:</strong> Transfer from other blockchains</li>
-              <li>• <strong>Fiat Onramps:</strong> Direct purchase with credit card</li>
+              <li>• Recent recordings overview</li>
+              <li>• Quick search functionality</li>
+              <li>• System status and notifications</li>
+              <li>• Quick access to common tasks</li>
+              <li>• User profile and settings</li>
             </ul>
           </div>
         </Step>
 
-        <Step number={4} title="Connect to Oreka" isLast>
+        <Step number={3} title="Search for Recordings">
           <p>
-            Visit the Oreka platform and connect your wallet to start exploring markets.
+            Use the search functionality to find specific recordings based on various criteria 
+            like phone numbers, dates, or content.
           </p>
           <div className="bg-gray-50 p-4 rounded-lg mt-3">
-            <h4 className="font-medium text-gray-900 mb-2">Connection Process:</h4>
-            <ol className="text-gray-600 text-sm space-y-1 list-decimal list-inside">
-              <li>Go to <a href="https://oreka.com" className="text-blue-600 hover:underline">oreka.com</a></li>
-              <li>Click &quot;Connect Wallet&quot; button</li>
-              <li>Select your wallet from the list</li>
-              <li>Approve the connection in your wallet</li>
-              <li>Verify your wallet address is displayed</li>
-            </ol>
+            <h4 className="font-medium text-gray-900 mb-2">Search Options:</h4>
+            <ul className="text-gray-600 text-sm space-y-1">
+              <li>• Basic search by phone number or date</li>
+              <li>• Advanced search with multiple filters</li>
+              <li>• AI-powered semantic search</li>
+              <li>• Saved search queries</li>
+              <li>• Export search results</li>
+            </ul>
+          </div>
+        </Step>
+
+        <Step number={4} title="Play and Download Recordings">
+          <p>
+            Listen to recordings directly in the browser or download them for offline use 
+            and analysis.
+          </p>
+          <div className="bg-gray-50 p-4 rounded-lg mt-3">
+            <h4 className="font-medium text-gray-900 mb-2">Recording Access:</h4>
+            <ul className="text-gray-600 text-sm space-y-1">
+              <li>• Stream recordings in browser</li>
+              <li>• Download in multiple formats</li>
+              <li>• Adjust playback speed</li>
+              <li>• Add notes and tags</li>
+              <li>• Share recordings with team members</li>
+            </ul>
+          </div>
+        </Step>
+
+        <Step number={5} title="Use AI Assistant" isLast>
+          <p>
+            Take advantage of Oreka&apos;s AI assistant to help you find recordings, 
+            understand content, and get insights from your call data.
+          </p>
+          <div className="bg-gray-50 p-4 rounded-lg mt-3">
+            <h4 className="font-medium text-gray-900 mb-2">AI Features:</h4>
+            <ul className="text-gray-600 text-sm space-y-1">
+              <li>• Natural language search queries</li>
+              <li>• Content analysis and insights</li>
+              <li>• Automated quality assessment</li>
+              <li>• Pattern recognition and trends</li>
+              <li>• Intelligent recommendations</li>
+            </ul>
           </div>
         </Step>
       </section>
 
-      {/* Exploring Markets */}
+      {/* User Roles and Permissions */}
       <section className="doc-section">
-        <h2>Exploring Markets</h2>
+        <h2>User Roles and Permissions</h2>
         <p>
-          Once connected, you can browse and analyze available prediction markets to 
-          find opportunities that match your knowledge and interests.
+          Oreka uses role-based access control to ensure users can only access the features 
+          and data they need for their job responsibilities.
+        </p>
+
+        <div className="grid md:grid-cols-3 gap-6 mt-6">
+          <div className="bg-white p-6 rounded-lg border border-gray-200">
+            <h3 className="text-lg font-semibold mb-3">Agent Role</h3>
+            <ul className="text-gray-600 space-y-2 text-sm">
+              <li>• Access to own call recordings</li>
+              <li>• Basic search functionality</li>
+              <li>• Add notes and tags</li>
+              <li>• View quality scores</li>
+              <li>• Limited system access</li>
+            </ul>
+          </div>
+          
+          <div className="bg-white p-6 rounded-lg border border-gray-200">
+            <h3 className="text-lg font-semibold mb-3">Supervisor Role</h3>
+            <ul className="text-gray-600 space-y-2 text-sm">
+              <li>• Access to team recordings</li>
+              <li>• Advanced search and analytics</li>
+              <li>• Quality monitoring tools</li>
+              <li>• Performance reporting</li>
+              <li>• Team management features</li>
+            </ul>
+          </div>
+
+          <div className="bg-white p-6 rounded-lg border border-gray-200">
+            <h3 className="text-lg font-semibold mb-3">Administrator Role</h3>
+            <ul className="text-gray-600 space-y-2 text-sm">
+              <li>• Full system access</li>
+              <li>• User management</li>
+              <li>• System configuration</li>
+              <li>• Security and compliance</li>
+              <li>• System monitoring</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Search and Discovery */}
+      <section className="doc-section">
+        <h2>Search and Discovery</h2>
+        <p>
+          Oreka provides powerful search capabilities to help you quickly find the recordings 
+          you need.
         </p>
 
         <div className="bg-white p-6 rounded-lg border border-gray-200 mt-6">
-          <h3 className="text-lg font-semibold mb-4">Market Categories</h3>
-          <div className="grid md:grid-cols-3 gap-6">
+          <h3 className="text-lg font-semibold mb-4">Search Methods</h3>
+          
+          <div className="grid md:grid-cols-2 gap-6">
             <div>
-              <h4 className="font-medium text-gray-900 mb-2">Crypto Markets</h4>
+              <h4 className="font-medium text-gray-900 mb-2">Basic Search</h4>
               <ul className="text-gray-600 space-y-1 text-sm">
-                <li>• Bitcoin price predictions</li>
-                <li>• Ethereum milestones</li>
-                <li>• Altcoin performance</li>
-                <li>• Market cap targets</li>
+                <li>• Phone number search</li>
+                <li>• Date range filtering</li>
+                <li>• Call duration filtering</li>
+                <li>• Agent/extension search</li>
+                <li>• Call direction filtering</li>
               </ul>
             </div>
             <div>
-              <h4 className="font-medium text-gray-900 mb-2">Sports Markets</h4>
+              <h4 className="font-medium text-gray-900 mb-2">Advanced Search</h4>
               <ul className="text-gray-600 space-y-1 text-sm">
-                <li>• Game outcomes</li>
-                <li>• Player performance</li>
-                <li>• Tournament results</li>
-                <li>• Season predictions</li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-medium text-gray-900 mb-2">News Markets</h4>
-              <ul className="text-gray-600 space-y-1 text-sm">
-                <li>• Political events</li>
-                <li>• Economic indicators</li>
-                <li>• Corporate news</li>
-                <li>• Policy decisions</li>
+                <li>• Multiple criteria combination</li>
+                <li>• Quality score filtering</li>
+                <li>• Tag and note search</li>
+                <li>• Custom metadata search</li>
+                <li>• Saved search queries</li>
               </ul>
             </div>
           </div>
         </div>
 
-        <h3 className="text-lg font-semibold mb-3 mt-6">Market Information</h3>
+        <h3 className="text-lg font-semibold mb-3 mt-6">AI-Powered Search</h3>
         <p>
-          Each market displays important information to help you make informed decisions:
+          Use natural language to find recordings:
         </p>
         <ul className="text-gray-600 space-y-2 mt-3">
-          <li>• <strong>Market Question:</strong> What you&apos;re predicting</li>
-          <li>• <strong>Outcomes:</strong> Possible results and current odds</li>
-          <li>• <strong>Total Stake:</strong> Amount of money in the market</li>
-          <li>• <strong>Participants:</strong> Number of people betting</li>
-          <li>• <strong>Time Remaining:</strong> When betting closes</li>
-          <li>• <strong>Oracle Source:</strong> How the outcome will be determined</li>
+          <li>• <strong>&quot;Find calls about customer complaints&quot;</strong> - Semantic search for content</li>
+          <li>• <strong>&quot;Show me calls from last week with long duration&quot;</strong> - Complex queries</li>
+          <li>• <strong>&quot;Find calls where agent mentioned pricing&quot;</strong> - Content-based search</li>
+          <li>• <strong>&quot;Show calls with poor quality scores&quot;</strong> - Quality-based filtering</li>
         </ul>
       </section>
 
-      {/* Placing Bets */}
+      {/* Working with Recordings */}
       <section className="doc-section">
-        <h2>Placing Your First Bet</h2>
+        <h2>Working with Recordings</h2>
         <p>
-          Once you&apos;ve found a market you want to bet on, follow these steps to place your bet:
-        </p>
-
-        <Step number={1} title="Select Market and Outcome">
-          <p>
-            Choose the market you want to bet on and select which outcome you think 
-            will happen.
-          </p>
-        </Step>
-
-        <Step number={2} title="Enter Bet Amount">
-          <p>
-            Decide how much you want to bet. Remember that you can lose this amount 
-            if your prediction is wrong.
-          </p>
-        </Step>
-
-        <Step number={3} title="Review Odds and Potential Payout">
-          <p>
-            Check the current odds and calculate your potential payout if you win. 
-            Higher odds mean higher potential returns but lower probability of winning.
-          </p>
-        </Step>
-
-        <Step number={4} title="Confirm Transaction" isLast>
-          <p>
-            Review all details and confirm the transaction in your wallet. You&apos;ll 
-            need to pay a small gas fee in APT.
-          </p>
-        </Step>
-
-        <Callout type="warning" title="Important Reminders">
-          <ul className="text-sm space-y-1">
-            <li>• Only bet what you can afford to lose</li>
-            <li>• Research markets before betting</li>
-            <li>• Understand that odds can change</li>
-            <li>• Keep track of your active bets</li>
-          </ul>
-        </Callout>
-      </section>
-
-      {/* Managing Positions */}
-      <section className="doc-section">
-        <h2>Managing Your Positions</h2>
-        <p>
-          After placing bets, you can monitor your positions and manage your portfolio 
-          through the Oreka interface.
+          Once you&apos;ve found recordings, you can interact with them in various ways 
+          to extract value and insights.
         </p>
 
         <div className="grid md:grid-cols-2 gap-6 mt-6">
           <div className="bg-white p-6 rounded-lg border border-gray-200">
-            <h3 className="text-lg font-semibold mb-3">Active Bets</h3>
+            <h3 className="text-lg font-semibold mb-3">Playback Features</h3>
             <ul className="text-gray-600 space-y-2 text-sm">
-              <li>• View all your current bets</li>
-              <li>• Track potential winnings</li>
-              <li>• Monitor market status</li>
-              <li>• Check time remaining</li>
+              <li>• Adjust playback speed (0.5x to 2x)</li>
+              <li>• Jump to specific timestamps</li>
+              <li>• Volume control and audio settings</li>
+              <li>• Keyboard shortcuts for navigation</li>
+              <li>• Mobile-responsive playback</li>
             </ul>
           </div>
           
           <div className="bg-white p-6 rounded-lg border border-gray-200">
-            <h3 className="text-lg font-semibold mb-3">Portfolio Overview</h3>
+            <h3 className="text-lg font-semibold mb-3">Content Management</h3>
             <ul className="text-gray-600 space-y-2 text-sm">
-              <li>• Total invested amount</li>
-              <li>• Current portfolio value</li>
-              <li>• Performance metrics</li>
-              <li>• Historical results</li>
+              <li>• Add notes and comments</li>
+              <li>• Apply tags and categories</li>
+              <li>• Flag recordings for review</li>
+              <li>• Share with team members</li>
+              <li>• Export in multiple formats</li>
             </ul>
           </div>
         </div>
 
-        <h3 className="text-lg font-semibold mb-3 mt-6">Tracking Performance</h3>
+        <h3 className="text-lg font-semibold mb-3 mt-6">Quality Assessment</h3>
         <p>
-          Oreka provides comprehensive tools to track your betting performance:
+          Evaluate call quality and agent performance:
         </p>
         <ul className="text-gray-600 space-y-2 mt-3">
-          <li>• <strong>Win/Loss Ratio:</strong> Track your prediction accuracy</li>
-          <li>• <strong>Profit/Loss:</strong> Monitor your financial performance</li>
-          <li>• <strong>Market Analysis:</strong> See which types of markets you excel at</li>
-          <li>• <strong>Historical Data:</strong> Review your betting history</li>
+          <li>• <strong>Quality Scoring:</strong> Automated quality metrics and scoring</li>
+          <li>• <strong>Performance Analytics:</strong> Agent performance tracking and trends</li>
+          <li>• <strong>Training Opportunities:</strong> Identify areas for improvement</li>
+          <li>• <strong>Best Practices:</strong> Learn from high-quality calls</li>
         </ul>
       </section>
 
-      {/* Claiming Rewards */}
+      {/* AI Assistant Usage */}
       <section className="doc-section">
-        <h2>Claiming Your Rewards</h2>
+        <h2>Using the AI Assistant</h2>
         <p>
-          When markets resolve, winners can claim their rewards. The process is 
-          automatic and secure.
+          Oreka&apos;s AI assistant can help you work more efficiently with your recordings 
+          and discover insights you might miss.
         </p>
 
         <div className="bg-white p-6 rounded-lg border border-gray-200 mt-6">
-          <h3 className="text-lg font-semibold mb-4">Reward Process</h3>
+          <h3 className="text-lg font-semibold mb-4">AI Assistant Features</h3>
           
-          <div className="space-y-4">
-            <div className="flex items-start">
-              <div className="w-6 h-6 bg-green-600 text-white rounded-full flex items-center justify-center text-sm font-semibold mr-3 mt-0.5">
-                1
-              </div>
-              <div>
-                <h4 className="font-medium text-gray-900">Market Resolution</h4>
-                <p className="text-gray-600 text-sm">
-                  Oracle determines the winning outcome based on real-world data
-                </p>
-              </div>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div>
+              <h4 className="font-medium text-gray-900 mb-2">Search Assistance</h4>
+              <ul className="text-gray-600 space-y-1 text-sm">
+                <li>• Natural language queries</li>
+                <li>• Context-aware search</li>
+                <li>• Intelligent suggestions</li>
+                <li>• Query refinement</li>
+              </ul>
             </div>
-
-            <div className="flex items-start">
-              <div className="w-6 h-6 bg-green-600 text-white rounded-full flex items-center justify-center text-sm font-semibold mr-3 mt-0.5">
-                2
-              </div>
-              <div>
-                <h4 className="font-medium text-gray-900">Automatic Calculation</h4>
-                <p className="text-gray-600 text-sm">
-                  Smart contracts calculate payouts for all winners
-                </p>
-              </div>
-            </div>
-
-            <div className="flex items-start">
-              <div className="w-6 h-6 bg-green-600 text-white rounded-full flex items-center justify-center text-sm font-semibold mr-3 mt-0.5">
-                3
-              </div>
-              <div>
-                <h4 className="font-medium text-gray-900">Claim Available</h4>
-                <p className="text-gray-600 text-sm">
-                  Winners can claim their rewards immediately
-                </p>
-              </div>
-            </div>
-
-            <div className="flex items-start">
-              <div className="w-6 h-6 bg-green-600 text-white rounded-full flex items-center justify-center text-sm font-semibold mr-3 mt-0.5">
-                4
-              </div>
-              <div>
-                <h4 className="font-medium text-gray-900">Withdraw to Wallet</h4>
-                <p className="text-gray-600 text-sm">
-                  Rewards are transferred to your connected wallet
-                </p>
-              </div>
+            <div>
+              <h4 className="font-medium text-gray-900 mb-2">Content Analysis</h4>
+              <ul className="text-gray-600 space-y-1 text-sm">
+                <li>• Sentiment analysis</li>
+                <li>• Topic identification</li>
+                <li>• Key phrase extraction</li>
+                <li>• Trend detection</li>
+              </ul>
             </div>
           </div>
         </div>
 
-        <Callout type="tip" title="Claiming Tips">
-          <ul className="text-sm space-y-1">
-            <li>• Check your portfolio regularly for resolved markets</li>
-            <li>• Claim rewards promptly to avoid delays</li>
-            <li>• Keep some APT in your wallet for gas fees</li>
-            <li>• Verify transaction confirmations</li>
-          </ul>
-        </Callout>
+        <h3 className="text-lg font-semibold mb-3 mt-6">Example AI Interactions</h3>
+        <p>
+          Here are some ways to interact with the AI assistant:
+        </p>
+        <ul className="text-gray-600 space-y-2 mt-3">
+          <li>• <strong>&quot;Find calls where customers were unhappy&quot;</strong> - Sentiment-based search</li>
+          <li>• <strong>&quot;What are the most common customer issues?&quot;</strong> - Trend analysis</li>
+          <li>• <strong>&quot;Show me calls that mention our new product&quot;</strong> - Content filtering</li>
+          <li>• <strong>&quot;Which agents have the best customer satisfaction?&quot;</strong> - Performance analysis</li>
+        </ul>
       </section>
 
       {/* Best Practices */}
       <section className="doc-section">
-        <h2>Best Practices for Success</h2>
+        <h2>Best Practices</h2>
         <p>
-          Follow these guidelines to improve your prediction market experience and 
-          increase your chances of success.
+          Follow these guidelines to get the most out of Oreka and work efficiently:
         </p>
 
         <div className="grid md:grid-cols-2 gap-6 mt-6">
           <div className="bg-white p-6 rounded-lg border border-gray-200">
-            <h3 className="text-lg font-semibold mb-3">Research & Analysis</h3>
+            <h3 className="text-lg font-semibold mb-3">Efficient Searching</h3>
             <ul className="text-gray-600 space-y-2 text-sm">
-              <li>• Research markets thoroughly before betting</li>
-              <li>• Use multiple information sources</li>
-              <li>• Consider historical data and trends</li>
-              <li>• Stay updated on relevant news</li>
+              <li>• Use specific search criteria</li>
+              <li>• Save frequently used searches</li>
+              <li>• Leverage AI assistant for complex queries</li>
+              <li>• Use filters to narrow results</li>
+              <li>• Export results for further analysis</li>
             </ul>
           </div>
           
           <div className="bg-white p-6 rounded-lg border border-gray-200">
-            <h3 className="text-lg font-semibold mb-3">Risk Management</h3>
+            <h3 className="text-lg font-semibold mb-3">Content Organization</h3>
             <ul className="text-gray-600 space-y-2 text-sm">
-              <li>• Never bet more than you can afford to lose</li>
-              <li>• Diversify across different market types</li>
-              <li>• Set betting limits and stick to them</li>
-              <li>• Don&apos;t chase losses with bigger bets</li>
+              <li>• Use consistent tagging strategies</li>
+              <li>• Add detailed notes to recordings</li>
+              <li>• Flag important calls for review</li>
+              <li>• Share relevant recordings with team</li>
+              <li>• Regular cleanup of old tags</li>
             </ul>
           </div>
         </div>
 
-        <h3 className="text-lg font-semibold mb-3 mt-6">Learning Resources</h3>
+        <h3 className="text-lg font-semibold mb-3 mt-6">Security and Privacy</h3>
         <p>
-          Continue learning about prediction markets and improving your skills:
+          Protect sensitive information and maintain compliance:
         </p>
         <ul className="text-gray-600 space-y-2 mt-3">
-          <li>• <strong>Market Types:</strong> Learn about different prediction market categories</li>
-          <li>• <strong>How It Works:</strong> Understand the technical aspects of the platform</li>
-          <li>• <strong>Community:</strong> Join discussions with other traders</li>
-          <li>• <strong>Analytics:</strong> Use platform tools to analyze your performance</li>
+          <li>• <strong>Secure Access:</strong> Always log out when finished</li>
+          <li>• <strong>Data Handling:</strong> Follow organizational data policies</li>
+          <li>• <strong>Sharing:</strong> Only share recordings with authorized personnel</li>
+          <li>• <strong>Compliance:</strong> Understand and follow regulatory requirements</li>
         </ul>
+      </section>
+
+      {/* Troubleshooting */}
+      <section className="doc-section">
+        <h2>Troubleshooting Common Issues</h2>
+        <p>
+          Here are solutions to common problems you might encounter:
+        </p>
+
+        <div className="bg-white p-6 rounded-lg border border-gray-200 mt-6">
+          <h3 className="text-lg font-semibold mb-4">Common Issues and Solutions</h3>
+          
+          <Table 
+            headers={['Issue', 'Cause', 'Solution']}
+            rows={[
+              ['Can\'t log in', 'Invalid credentials or account locked', 'Check username/password, contact admin'],
+              ['Recordings won\'t play', 'Browser compatibility or codec issues', 'Try different browser, check audio settings'],
+              ['Search not working', 'Incorrect search syntax or filters', 'Simplify search, check filter settings'],
+              ['Slow performance', 'Large result sets or system load', 'Use more specific search criteria'],
+              ['Missing recordings', 'Permission issues or data retention', 'Check user role, contact administrator'],
+            ]}
+          />
+        </div>
+
+        <Callout type="tip" title="Getting Help">
+          If you encounter issues not covered here, contact your system administrator 
+          or check the system documentation for more detailed troubleshooting guides.
+        </Callout>
       </section>
 
       {/* Next Steps */}
       <section className="doc-section">
         <h2>Next Steps</h2>
         <p>
-          Now that you understand the basics, explore these additional topics:
+          Now that you understand the basics, explore these advanced topics:
         </p>
         
-        <div className="grid md:grid-cols-2 gap-6 mt-6">
-          <div className="bg-white p-6 rounded-lg border border-gray-200">
-            <h3 className="text-lg font-semibold mb-2">Market Types</h3>
+        <div className="grid md:grid-cols-3 gap-6 mt-6">
+          <div className="bg-white p-6 rounded-lg border border-gray-200 text-center">
+            <h3 className="text-lg font-semibold mb-2">Advanced Features</h3>
             <p className="text-gray-600 mb-4">
-              Learn about the different types of prediction markets available
+              Learn about advanced search and analytics
             </p>
             <a href="/market-types" className="text-blue-600 hover:text-blue-800 font-medium">
-              Explore Markets →
+              Explore Features →
             </a>
           </div>
           
-          <div className="bg-white p-6 rounded-lg border border-gray-200">
-            <h3 className="text-lg font-semibold mb-2">How It Works</h3>
+          <div className="bg-white p-6 rounded-lg border border-gray-200 text-center">
+            <h3 className="text-lg font-semibold mb-2">System Architecture</h3>
             <p className="text-gray-600 mb-4">
-              Deep dive into the technical aspects of Oreka
+              Understand how the system works
             </p>
-            <a href="/how-it-works" className="text-blue-600 hover:text-blue-800 font-medium">
+            <a href="/architecture" className="text-blue-600 hover:text-blue-800 font-medium">
               Learn More →
+            </a>
+          </div>
+          
+          <div className="bg-white p-6 rounded-lg border border-gray-200 text-center">
+            <h3 className="text-lg font-semibold mb-2">Training Resources</h3>
+            <p className="text-gray-600 mb-4">
+              Access training materials and guides
+            </p>
+            <a href="/ai-training-guide" className="text-blue-600 hover:text-blue-800 font-medium">
+              View Training →
             </a>
           </div>
         </div>

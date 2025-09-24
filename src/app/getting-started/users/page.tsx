@@ -1,4 +1,4 @@
-import { Callout, Step, CodeBlock } from '@/components/ui';
+import { Callout, Step, CodeBlock, Table } from '@/components/ui';
 
 export default function GettingStartedUsersPage() {
   return (
